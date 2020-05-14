@@ -8,4 +8,20 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
+  
+  get "/all" do
+    erb :all 
+  end
+  
+  get "/name" do
+    erb :name
+  end
+  
+  get "/breed" do
+    erb :breed
+  end
+  
+  get "/age" do
+    erb :age
+  end
 end
